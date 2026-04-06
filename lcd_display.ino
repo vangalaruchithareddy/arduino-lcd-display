@@ -1,5 +1,5 @@
 // Name: Ruchitha Reddy
-// College: Sri Venkateshwara College Of Engineering
+// College: SV College Of Engineering
 // Project: LCD Display - Custom Message
 
 #include <LiquidCrystal.h>
@@ -18,7 +18,7 @@ void setup() {
   
   // Print college name on second row
   lcd.setCursor(0, 1);
-  lcd.print("Sri Venkateshwara College Of Engineering");
+  lcd.print("SV College Of Engineering");
 }
 
 void loop() {
